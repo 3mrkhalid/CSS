@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*Try Arial first, if it is not available use Helvetica, and if it is not available also, use any font without appendages (sans-serif) available in the system */
+    background-color:#1a1a1a;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #d5d4d4;
+    border-radius: 8px;
+    padding: 30px;
+    width: 300px;
+}
+
+h2{
+    color: rgb(25, 25, 180);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    margin-bottom:10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #d8d8d8;
+}
+
+button
+{
+    background-color: rgb(67, 72, 174);
+    color:white;
+    padding : 10px;
+    border-radius: 8px;
+}
+
+button:hover
+{
+   background-color: rgb(35, 52, 97);
+}
+
+/* The types of fonts that determine the shape of writing on the page. */
+
+/* Arial: A simple, clear, and frequently used font in documents and websites. */
+/* Helvetica: Similar to Arial, but more professional and streamlined, and is used a lot in designs and companies. */
+/* Sans-serif: A general term that includes lines that do not have appendages or decorations (as opposed to a serif with small edges such as Times New Roman). */
+
+
+/* what is the flex system */
+/*
+flex-direction → determines the direction of the elements:
+
+row (default) → horizontal order from left to right.
+row-reverse → horizontal arrangement from right to left.
+column → vertical arrangement from top to bottom.
+column-reverse → vertical arrangement from bottom to top.
+justify-content → controls the alignment of elements on the main axis:
+
+flex-start (default) → elements start at the beginning of the axis.
+center → elements center the axis.
+flex-end → the elements go to the end of the axis.
+space-between→ distribute the elements while leaving equal spaces between them.
+space-around → distribute elements with equal spaces between them and smaller outer edges.
+space-evenly → distribute elements evenly between them and the edges.
+align-items → controls the alignment of elements on the secondary axis:
+
+stretch (default) → items stretch to fill the entire height.
+flex-start → elements are stacked from the beginning of the secondary axis.
+center → the elements in the middle of the secondary axis.
+flex-end → elements are at the end of the secondary axis.
+*/
